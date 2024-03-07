@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@mrcointreau/*": [
+        "../*/src"
+      ],
+    },
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
