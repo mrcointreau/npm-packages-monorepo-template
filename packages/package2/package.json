@@ -25,7 +25,9 @@
   },
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
-    "dev": "NODE_ENV=development rollup -c -w"
+    "dev": "NODE_ENV=development rollup -c -w",
+    "test": "jest",
+    "test:dev": "jest --watch"
   },
   "dependencies": {
     "@mrcointreau/core": "1.0.0"

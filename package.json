@@ -10,7 +10,8 @@
     "build": "npm run build -w packages",
     "dev": "npm run dev -w packages",
     "lint": "tsc && eslint .",
-    "lint:fix": "tsc && eslint . --fix"
+    "lint:fix": "tsc && eslint . --fix",
+    "test": "npm run test -w packages"
   },
   "devDependencies": {
     "@commitlint/cli": "19.0.3",
