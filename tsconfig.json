@@ -14,7 +14,7 @@
     "paths": {
       "@mrcointreau/*": [
         "packages/*/src"
-      ],
+      ]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
