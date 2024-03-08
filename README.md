@@ -1,6 +1,6 @@
 # npm-packages-monorepo-template
 
-[![Build Status](https://github.com/mrcointreau/npm-packages-monorepo-template/workflows/build/badge.svg)](https://github.com/mrcointreau/npm-packages-monorepo-template/actions)
+[![Build](https://github.com/mrcointreau/npm-packages-monorepo-template/actions/workflows/build.yaml/badge.svg)](https://github.com/mrcointreau/npm-packages-monorepo-template/actions/workflows/build.yaml)
 
 This repository is a template for managing a monorepo with npm packages. It's designed to streamline the development of TypeScript-based npm packages with a shared core package.
 
