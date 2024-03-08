@@ -1,7 +1,7 @@
 {
   "name": "@mrcointreau/package1",
   "type": "module",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/mrcointreau/npm-packages-monorepo-template.git",
@@ -28,6 +28,6 @@
     "dev": "NODE_ENV=development rollup -c -w"
   },
   "dependencies": {
-    "@mrcointreau/core": "1.2.0"
+    "@mrcointreau/core": "1.0.0"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "@mrcointreau/core",
   "type": "module",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/mrcointreau/npm-packages-monorepo-template.git",

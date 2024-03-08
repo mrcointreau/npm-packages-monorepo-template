@@ -28,6 +28,6 @@
     "dev": "NODE_ENV=development rollup -c -w"
   },
   "dependencies": {
-    "@mrcointreau/core": "1.2.0"
+    "@mrcointreau/core": "1.0.0"
   }
 }
