@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrcointreau/npm-packages-monorepo-template.git",
+    "url": "git+https://github.com/mrcointreau/npm-packages-monorepo-template.git",
     "directory": "packages/package1"
   },
   "publishConfig": {
@@ -26,8 +26,8 @@
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "dev": "NODE_ENV=development rollup -c -w",
-    "test": "jest --config ../../jest.config.cjs",
-    "test:dev": "jest --config ../../jest.config.cjs --watch"
+    "test": "jest",
+    "test:dev": "jest --watch"
   },
   "dependencies": {
     "@mrcointreau/core": "1.0.0"

@@ -1,6 +1,6 @@
 import { package2Function } from '../src'
 
-describe('coreFunction', () => {
+describe('package2Function', () => {
   it('returns an object with a message property', () => {
     const response = package2Function()
     expect(response).toHaveProperty('message')
