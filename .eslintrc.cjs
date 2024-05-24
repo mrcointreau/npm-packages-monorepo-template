@@ -2,12 +2,14 @@ module.exports = {
   root: true,
   extends: ['@mrcointreau/eslint-config-typescript'],
   parserOptions: {
-    project: ['./tsconfig.eslint.json']
+    tsconfigRootDir: __dirname, // for Zed compatibility
+    project: ['./tsconfig.eslint.json'],
   },
   ignorePatterns: [
     '*.min.*',
     '*.d.ts',
+    'coverage',
     'dist',
-    'package-lock.json'
-  ]
+    'package-lock.json',
+  ],
 }

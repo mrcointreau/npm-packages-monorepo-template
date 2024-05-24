@@ -4,10 +4,10 @@
     "paths": {
       "@mrcointreau/*": [
         "../*/src"
-      ],
-    },
+      ]
+    }
   },
   "include": [
-    "./src/**/*"
+    "src"
   ]
 }

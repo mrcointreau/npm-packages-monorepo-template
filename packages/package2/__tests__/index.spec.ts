@@ -1,3 +1,5 @@
+import { describe, expect, it } from 'vitest'
+
 import { package2Function } from '../src'
 
 describe('package2Function', () => {

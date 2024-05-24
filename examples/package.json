@@ -3,9 +3,5 @@
   "type": "module",
   "scripts": {
     "start": "tsx index.ts"
-  },
-  "dependencies": {
-    "@mrcointreau/package1": "latest",
-    "@mrcointreau/package2": "latest"
   }
 }

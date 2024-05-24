@@ -1,3 +1,5 @@
+import { describe, expect, it } from 'vitest'
+
 import { coreFunction } from '../src'
 
 describe('coreFunction', () => {

@@ -21,17 +21,15 @@
     "strict": true,
     "target": "ESNext",
     "types": [
-      "@types/jest",
       "@types/node"
     ],
-    "useDefineForClassFields": true,
-    "verbatimModuleSyntax": true
+    "useDefineForClassFields": true
   },
   "include": [
     "./**/*"
   ],
   "exclude": [
     "node_modules",
-    "dist"
+    "**/dist/**"
   ]
 }

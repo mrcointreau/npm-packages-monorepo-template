@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 import { package1Function } from '@mrcointreau/package1'
 import { package2Function } from '@mrcointreau/package2'
 

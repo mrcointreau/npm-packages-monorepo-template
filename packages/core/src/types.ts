@@ -1,3 +1,3 @@
 export interface CoreResponse {
-  message: string;
+  message: string
 }

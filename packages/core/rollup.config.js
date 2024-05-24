@@ -10,22 +10,22 @@ export default [
       {
         file: 'dist/index.cjs.js',
         format: 'cjs',
-        sourcemap: true
+        sourcemap: true,
       },
       {
         file: 'dist/index.esm.js',
         format: 'esm',
-        sourcemap: true
-      }
+        sourcemap: true,
+      },
     ],
     plugins: [
       typescript({ tsconfig: './tsconfig.build.json' }),
-      process.env.NODE_ENV === 'production' ? terser() : esbuild()
-    ]
+      process.env.NODE_ENV === 'production' ? terser() : esbuild(),
+    ],
   },
   {
     input: 'src/index.ts',
     output: [{ file: 'dist/index.d.ts', format: 'esm' }],
-    plugins: [dts()]
-  }
+    plugins: [dts()],
+  },
 ]
