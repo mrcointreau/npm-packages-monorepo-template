@@ -26,7 +26,7 @@
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "dev": "NODE_ENV=development rollup -c -w",
-    "test": "vites run --coverage"
+    "test": "vitest run --coverage"
   },
   "dependencies": {
     "@mrcointreau/core": "1.0.0"
